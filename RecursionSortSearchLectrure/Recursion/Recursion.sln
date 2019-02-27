@@ -5,15 +5,17 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursion", "Recursion\Recursion.csproj", "{15C819C9-A827-4C18-916E-6129DE86DC3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFactorial", "RecursiveFactorial\RecursiveFactorial.csproj", "{861D5CF1-6EA1-46EA-B995-884CF7AD8CB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveFactorial", "RecursiveFactorial\RecursiveFactorial.csproj", "{861D5CF1-6EA1-46EA-B995-884CF7AD8CB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveDrawing", "RecursiveDrawing\RecursiveDrawing.csproj", "{48A5EBAD-F6DB-406E-9139-26B17843DC75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveDrawing", "RecursiveDrawing\RecursiveDrawing.csproj", "{48A5EBAD-F6DB-406E-9139-26B17843DC75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateVectors", "GenerateVectors\GenerateVectors.csproj", "{AA15E212-4C90-4C48-A927-FE4870A358E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateVectors", "GenerateVectors\GenerateVectors.csproj", "{AA15E212-4C90-4C48-A927-FE4870A358E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateCombinations", "GenerateCombinations\GenerateCombinations.csproj", "{5A6F474C-F357-4571-AD69-87F9747BE6F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateCombinations", "GenerateCombinations\GenerateCombinations.csproj", "{5A6F474C-F357-4571-AD69-87F9747BE6F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindAllPathsInALabyrinth", "FindAllPathsInALabyrinth\FindAllPathsInALabyrinth.csproj", "{CBE2A505-0665-4E08-9E71-EC25A36CD75E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindAllPathsInALabyrinth", "FindAllPathsInALabyrinth\FindAllPathsInALabyrinth.csproj", "{CBE2A505-0665-4E08-9E71-EC25A36CD75E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightQueens", "EightQueens\EightQueens.csproj", "{56A8F03B-0616-4B02-82FE-104DCF080333}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CBE2A505-0665-4E08-9E71-EC25A36CD75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBE2A505-0665-4E08-9E71-EC25A36CD75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBE2A505-0665-4E08-9E71-EC25A36CD75E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A8F03B-0616-4B02-82FE-104DCF080333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A8F03B-0616-4B02-82FE-104DCF080333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A8F03B-0616-4B02-82FE-104DCF080333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A8F03B-0616-4B02-82FE-104DCF080333}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
