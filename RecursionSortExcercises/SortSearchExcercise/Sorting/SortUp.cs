@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Sorting
 {
-    class Program
+    class SortUp
     {
         private static int[] InsertionSort(int[] toSort)
         {
             var sorted = new List<int>(toSort.Length);
-            if (toSort.Length==0)
+            if (toSort.Length == 0)
             {
                 return sorted.ToArray();
             }
@@ -20,7 +20,7 @@ namespace Sorting
                 bool wasInserted = false;
                 for (int j = 0; j < sorted.Count; j++)
                 {
-                    if (valToSort<=sorted[j])
+                    if (valToSort <= sorted[j])
                     {
                         sorted.Insert(j, valToSort);
                         wasInserted = true;
@@ -40,11 +40,11 @@ namespace Sorting
         {
             for (int i = 0; i < toSort.Length; i++)
             {
-                for (int j = 0; j < toSort.Length-i-1; j++)
+                for (int j = 0; j < toSort.Length - i - 1; j++)
                 {
-                    if (toSort[j]>toSort[j+1])
+                    if (toSort[j] > toSort[j + 1])
                     {
-                        SwapValues(toSort, j ,j+1);
+                        SwapValues(toSort, j, j + 1);
                     }
                 }
             }
@@ -64,7 +64,7 @@ namespace Sorting
                         minIndex = j;
                     }
                 }
-                if (minIndex!=i)
+                if (minIndex != i)
                 {
                     SwapValues(toSort, i, minIndex);
                 }
@@ -80,7 +80,7 @@ namespace Sorting
 
         private static int[] MergeSort(int[] toSort)
         {
-            if (toSort.Length==1)
+            if (toSort.Length == 1)
             {
                 return toSort;
             }
@@ -96,7 +96,7 @@ namespace Sorting
                 rightList.Add(toSort[i]);
             }
             leftList = MergeSort(leftList.ToArray()).ToList();
-            rightList =  MergeSort(rightList.ToArray()).ToList();
+            rightList = MergeSort(rightList.ToArray()).ToList();
 
             var result = new List<int>();
             result = ConcatMerged(leftList, rightList);
@@ -108,9 +108,9 @@ namespace Sorting
         {
             var result = new List<int>(leftList.Count + rightList.Count);
 
-            while (leftList.Count!=0 && rightList.Count!=0)
+            while (leftList.Count != 0 && rightList.Count != 0)
             {
-                if (leftList[0]<rightList[0])
+                if (leftList[0] < rightList[0])
                 {
                     result.Add(leftList[0]);
                     leftList.RemoveAt(0);
@@ -121,7 +121,7 @@ namespace Sorting
                     rightList.RemoveAt(0);
                 }
             }
-            while (leftList.Count!=0)
+            while (leftList.Count != 0)
             {
                 result.Add(leftList[0]);
                 leftList.RemoveAt(0);
@@ -150,5 +150,6 @@ namespace Sorting
 
             //Console.WriteLine(string.Join(" ", numbers));
         }
+
     }
 }
