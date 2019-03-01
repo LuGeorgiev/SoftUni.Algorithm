@@ -135,12 +135,65 @@ namespace Sorting
             return result;
         }
 
+        private static int[] QuickSort(int[] toSort)
+        {
+            if (toSort.Length<=1)
+            {
+                return toSort;
+            }
+            var rnd = new Random();
+            int rndIndex = rnd.Next(toSort.Length);
+            int rndValue = toSort[rndIndex];
+
+            var lowerValues = new List<int>();
+            var higherValues = new List<int>();
+            for (int i =0 ; i < rndIndex ;i++)
+            {
+                var current = toSort[i];
+                if (rndValue< current)
+                {
+                    higherValues.Add(current);
+                }
+                else
+                {
+                    lowerValues.Add(current);
+                }
+            }
+            for (int i = rndIndex+1; i < toSort.Length; i++)
+            {
+                var current = toSort[i];
+                if (rndValue < current)
+                {
+                    higherValues.Add(current);
+                }
+                else
+                {
+                    lowerValues.Add(current);
+                }
+            }
+
+            return ConcatQuick(QuickSort(lowerValues.ToArray()).ToList() , 
+                rndValue,
+                QuickSort(higherValues.ToArray()).ToList());
+        }
+
+        private static int[] ConcatQuick(List<int> lowerValues, int rndValue, List<int> higherValues)
+        {
+            var result = new List<int>(lowerValues);
+            result.Add(rndValue);
+            result.AddRange(higherValues);
+
+            return result.ToArray();
+        }
+
         static void Main(string[] args)
         {
             int[] numbers = new int[] { 1, 4, 2, -1, 0 };
 
             //var sortedInts = InsertionSort(numbers);
-            var sortedInts = MergeSort(numbers);
+            //var sortedInts = MergeSort(numbers);
+
+            var sortedInts = QuickSort(numbers);
             Console.WriteLine(string.Join(" ", sortedInts));
 
 
