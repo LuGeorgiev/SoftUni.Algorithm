@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermutationsWithoutReps", "..\PermutationsWithoutReps\PermutationsWithoutReps.csproj", "{0F007051-60FF-4F58-B86C-25135AA75809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermutationsWithoutRepsSwap", "PermuttaionsWithoutRepsSwap\PermutationsWithoutRepsSwap.csproj", "{8CE94BC0-3900-4183-A98C-AC96D16E014F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermutationsWithRepHashSet", "PermuttaionWithRepHashSet\PermutationsWithRepHashSet.csproj", "{FD1B56EF-5E0C-4663-BD54-8238A0A8F4EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermutationsWithRepOptimized", "PermutationWithRepOptimized\PermutationsWithRepOptimized.csproj", "{A55B9AB3-624B-4045-B135-8B41640E0C74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F007051-60FF-4F58-B86C-25135AA75809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F007051-60FF-4F58-B86C-25135AA75809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F007051-60FF-4F58-B86C-25135AA75809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F007051-60FF-4F58-B86C-25135AA75809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE94BC0-3900-4183-A98C-AC96D16E014F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE94BC0-3900-4183-A98C-AC96D16E014F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE94BC0-3900-4183-A98C-AC96D16E014F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE94BC0-3900-4183-A98C-AC96D16E014F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1B56EF-5E0C-4663-BD54-8238A0A8F4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1B56EF-5E0C-4663-BD54-8238A0A8F4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1B56EF-5E0C-4663-BD54-8238A0A8F4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1B56EF-5E0C-4663-BD54-8238A0A8F4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55B9AB3-624B-4045-B135-8B41640E0C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55B9AB3-624B-4045-B135-8B41640E0C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55B9AB3-624B-4045-B135-8B41640E0C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55B9AB3-624B-4045-B135-8B41640E0C74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {542F7BCC-D54B-470D-BB98-E49B1306CAFC}
+	EndGlobalSection
+EndGlobal
