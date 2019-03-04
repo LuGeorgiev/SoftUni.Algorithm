@@ -5,11 +5,13 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sorting", "Sorting\Sorting.csproj", "{0FF0BD16-C7BB-44A4-9ED7-5DB2EF9775C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Searching", "Searching\Searching.csproj", "{DBEA9006-0473-4BC9-BF54-1552EC137C1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Searching", "Searching\Searching.csproj", "{DBEA9006-0473-4BC9-BF54-1552EC137C1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Words", "Words\Words.csproj", "{F93838DA-0B5E-4B90-9234-892F6EDE42D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Words", "Words\Words.csproj", "{F93838DA-0B5E-4B90-9234-892F6EDE42D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Needles", "Needles\Needles.csproj", "{BDCF3482-FAEC-4AA0-A864-AF29F14534F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Needles", "Needles\Needles.csproj", "{BDCF3482-FAEC-4AA0-A864-AF29F14534F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsKenovExcercise", "WordsKenovExcercise\WordsKenovExcercise.csproj", "{4BAAA9BC-7DB5-4FDD-83CC-8496F08EE6C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BDCF3482-FAEC-4AA0-A864-AF29F14534F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDCF3482-FAEC-4AA0-A864-AF29F14534F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDCF3482-FAEC-4AA0-A864-AF29F14534F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAAA9BC-7DB5-4FDD-83CC-8496F08EE6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAAA9BC-7DB5-4FDD-83CC-8496F08EE6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAAA9BC-7DB5-4FDD-83CC-8496F08EE6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAAA9BC-7DB5-4FDD-83CC-8496F08EE6C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
