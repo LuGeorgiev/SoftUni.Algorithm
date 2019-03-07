@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgyptianFractions", "Egypti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterativePermutationsWithoutRep", "IterativePermutationsWithoutRep\IterativePermutationsWithoutRep.csproj", "{C5A7CA59-88A6-4948-ACC4-B8CD7AD3518F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterativeCombinationsWithoutRep", "IterativeCombinationsWithoutRep\IterativeCombinationsWithoutRep.csproj", "{5CD10CFB-8DE9-4459-8626-E431829F7B66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C5A7CA59-88A6-4948-ACC4-B8CD7AD3518F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5A7CA59-88A6-4948-ACC4-B8CD7AD3518F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5A7CA59-88A6-4948-ACC4-B8CD7AD3518F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD10CFB-8DE9-4459-8626-E431829F7B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD10CFB-8DE9-4459-8626-E431829F7B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD10CFB-8DE9-4459-8626-E431829F7B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD10CFB-8DE9-4459-8626-E431829F7B66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
