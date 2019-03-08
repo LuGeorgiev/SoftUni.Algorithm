@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterativeCombinationsWithou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessorScheduling", "ProcessorScheduling\ProcessorScheduling.csproj", "{305A010B-6C65-4459-9113-21D2F948E835}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinghtsTour", "KinghtsTour\KinghtsTour.csproj", "{8CF09A91-BDDA-4AEF-A843-A9D25779DCCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{305A010B-6C65-4459-9113-21D2F948E835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{305A010B-6C65-4459-9113-21D2F948E835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{305A010B-6C65-4459-9113-21D2F948E835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF09A91-BDDA-4AEF-A843-A9D25779DCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF09A91-BDDA-4AEF-A843-A9D25779DCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF09A91-BDDA-4AEF-A843-A9D25779DCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF09A91-BDDA-4AEF-A843-A9D25779DCCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
