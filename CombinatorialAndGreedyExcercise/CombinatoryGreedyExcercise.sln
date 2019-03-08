@@ -5,17 +5,19 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snakes", "Snakes\Snakes.csproj", "{D86D0280-2911-442B-93FB-E3F9E233363A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionalKnapsackProblem", "FractionalKnapsackProblem\FractionalKnapsackProblem.csproj", "{855E2873-1240-44FF-B49A-2FFC8AC77BFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FractionalKnapsackProblem", "FractionalKnapsackProblem\FractionalKnapsackProblem.csproj", "{855E2873-1240-44FF-B49A-2FFC8AC77BFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgyptianFractions", "EgyptianFractions\EgyptianFractions.csproj", "{8F334347-7FB3-438C-A8A0-1761C5B324AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EgyptianFractions", "EgyptianFractions\EgyptianFractions.csproj", "{8F334347-7FB3-438C-A8A0-1761C5B324AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterativePermutationsWithoutRep", "IterativePermutationsWithoutRep\IterativePermutationsWithoutRep.csproj", "{C5A7CA59-88A6-4948-ACC4-B8CD7AD3518F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IterativePermutationsWithoutRep", "IterativePermutationsWithoutRep\IterativePermutationsWithoutRep.csproj", "{C5A7CA59-88A6-4948-ACC4-B8CD7AD3518F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterativeCombinationsWithoutRep", "IterativeCombinationsWithoutRep\IterativeCombinationsWithoutRep.csproj", "{5CD10CFB-8DE9-4459-8626-E431829F7B66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IterativeCombinationsWithoutRep", "IterativeCombinationsWithoutRep\IterativeCombinationsWithoutRep.csproj", "{5CD10CFB-8DE9-4459-8626-E431829F7B66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessorScheduling", "ProcessorScheduling\ProcessorScheduling.csproj", "{305A010B-6C65-4459-9113-21D2F948E835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessorScheduling", "ProcessorScheduling\ProcessorScheduling.csproj", "{305A010B-6C65-4459-9113-21D2F948E835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinghtsTour", "KinghtsTour\KinghtsTour.csproj", "{8CF09A91-BDDA-4AEF-A843-A9D25779DCCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinghtsTour", "KinghtsTour\KinghtsTour.csproj", "{8CF09A91-BDDA-4AEF-A843-A9D25779DCCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestLecturersSchedule", "BestLecturersSchedule\BestLecturersSchedule.csproj", "{5B730274-4543-4F94-8349-4ABB16602163}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8CF09A91-BDDA-4AEF-A843-A9D25779DCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CF09A91-BDDA-4AEF-A843-A9D25779DCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CF09A91-BDDA-4AEF-A843-A9D25779DCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B730274-4543-4F94-8349-4ABB16602163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B730274-4543-4F94-8349-4ABB16602163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B730274-4543-4F94-8349-4ABB16602163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B730274-4543-4F94-8349-4ABB16602163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
