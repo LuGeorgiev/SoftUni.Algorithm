@@ -25,7 +25,7 @@ namespace IterativeCombinationsWithoutRep
             {
                 Console.Write(elements[combo[i]] + " ");
             }
-            Console.Write(elements[combo[combo.Length - 1]]);
+            Console.Write(elements[combo[combo.Length - 1]]); // to print the last element without space
             Console.WriteLine();
         }
 
