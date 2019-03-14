@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveDownRight", "MoveDownRi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingSubsequence", "LongestIncreasingSubsequence\LongestIncreasingSubsequence.csproj", "{67D8A070-DB9F-4DAE-9223-3C682EE5ED28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RodCutting", "RodCutting\RodCutting.csproj", "{495F8F37-DC3D-4934-BB9E-2DFCC0912572}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RodCutting", "RodCutting\RodCutting.csproj", "{495F8F37-DC3D-4934-BB9E-2DFCC0912572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnapsackProblem", "KnapsackProblem\KnapsackProblem.csproj", "{2B8B5CF5-39D0-4552-BB60-C9C4AA2C198F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{495F8F37-DC3D-4934-BB9E-2DFCC0912572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{495F8F37-DC3D-4934-BB9E-2DFCC0912572}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{495F8F37-DC3D-4934-BB9E-2DFCC0912572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8B5CF5-39D0-4552-BB60-C9C4AA2C198F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8B5CF5-39D0-4552-BB60-C9C4AA2C198F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8B5CF5-39D0-4552-BB60-C9C4AA2C198F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8B5CF5-39D0-4552-BB60-C9C4AA2C198F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
