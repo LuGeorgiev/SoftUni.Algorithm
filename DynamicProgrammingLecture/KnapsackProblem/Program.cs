@@ -14,21 +14,40 @@ namespace KnapsackProblem
 
             public string Name { get; set; }
         }
+
         static void Main(string[] args)
         {
-            var items = new[]
-            {
-                new Item {Weight=5,Price=30 ,Name="Item1"},
-                new Item {Weight=8,Price=120,Name="Item2" },
-                new Item {Weight=7,Price=10,Name="Item3" },
-                new Item {Weight=0,Price=20,Name="Item4" },
-                new Item {Weight=4,Price=50,Name="Item5" },
-                new Item {Weight=5,Price=80,Name="Item6" },
-                new Item {Weight=2,Price=10,Name="Item7" }
-            };
-            var knapsackCapacity = 20;
+            //var items = new[]
+            //{
+            //    new Item {Weight=5,Price=30 ,Name="Item1"},
+            //    new Item {Weight=8,Price=120,Name="Item2" },
+            //    new Item {Weight=7,Price=10,Name="Item3" },
+            //    new Item {Weight=0,Price=20,Name="Item4" },
+            //    new Item {Weight=4,Price=50,Name="Item5" },
+            //    new Item {Weight=5,Price=80,Name="Item6" },
+            //    new Item {Weight=2,Price=10,Name="Item7" }
+            //};
+            //var knapsackCapacity = 20;
 
-            Item[] itemsTaken = FillWithItems(items, knapsackCapacity);
+            int knapsackCapacity = int.Parse(Console.ReadLine());
+            var items = new List<Item>();
+            while (true)
+            {
+                var line = Console.ReadLine();
+                if (line == "end")
+                {
+                    break;
+                }
+                var tokens = line.Split(' ');
+                items.Add(new Item
+                {
+                    Name = tokens[0],
+                    Weight =int.Parse(tokens[1]),
+                    Price =int.Parse(tokens[2]),
+                });
+            }
+
+            Item[] itemsTaken = FillWithItems(items.ToArray(), knapsackCapacity);
 
             Console.WriteLine($"Total weight: {itemsTaken.Sum(x => x.Weight)}");
             Console.WriteLine($"Total price: {itemsTaken.Sum(x => x.Price)}");
