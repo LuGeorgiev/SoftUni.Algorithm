@@ -25,7 +25,7 @@ namespace DevidingPresents
                     if (sums[previousSumIndex]!= -1 
                         && sums[previousSumIndex+presents[presentIndex]]==-1)
                     {
-                        //writes dow what is teh index of previous sum that led to this sum
+                        //writes down what is the index of previous sum that led to this sum
                         sums[previousSumIndex + presents[presentIndex]] = presentIndex;
                     }
                 }
@@ -46,7 +46,7 @@ namespace DevidingPresents
                     i -= presents[sums[i]];
                 }
                 Console.WriteLine();
-                Console.WriteLine("Bob yakes teh rest");
+                Console.WriteLine("Bob takes the rest");
             }
 
         }
