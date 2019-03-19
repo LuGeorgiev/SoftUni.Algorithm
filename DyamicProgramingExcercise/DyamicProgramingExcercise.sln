@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevidingPresents", "Devidin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumEditDistanec", "MinimumEditDistanec\MinimumEditDistanec.csproj", "{00E6A99B-6D16-4F65-AA9B-6BAB77667954}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinomialCoefficients", "BinomialCoefficients\BinomialCoefficients.csproj", "{7A2CB9F5-35F0-4270-85AC-1D5BA4FB389D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{00E6A99B-6D16-4F65-AA9B-6BAB77667954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00E6A99B-6D16-4F65-AA9B-6BAB77667954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00E6A99B-6D16-4F65-AA9B-6BAB77667954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2CB9F5-35F0-4270-85AC-1D5BA4FB389D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2CB9F5-35F0-4270-85AC-1D5BA4FB389D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2CB9F5-35F0-4270-85AC-1D5BA4FB389D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2CB9F5-35F0-4270-85AC-1D5BA4FB389D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
