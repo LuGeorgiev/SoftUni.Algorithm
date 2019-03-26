@@ -6,7 +6,7 @@ using Wintellect.PowerCollections;
 namespace DijkstraAlgorithm
 {
     //Prim starts from single node and buids
-    //Kruskal starts with all nod esepareted and runs greedy to build the Spanning Tree Forest
+    //Kruskal starts with all node separeted and runs greedy to build the Spanning Tree Forest
     class Edge
     {
         public int First { get; set; }
