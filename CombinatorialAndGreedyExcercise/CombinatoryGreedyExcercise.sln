@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterativePermutationsWithRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cubes", "Cubes\Cubes.csproj", "{A1266C00-950D-49D7-A2E8-03B21A1942C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightsTourWarnsdorff", "KnightsTourWarnsdorff\KnightsTourWarnsdorff.csproj", "{13D6D394-A359-49FA-B126-39DE3C8C9A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBox", "SandBox\SandBox.csproj", "{8C50C857-6DC6-4F1E-BA8F-577C23B53CB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{A1266C00-950D-49D7-A2E8-03B21A1942C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1266C00-950D-49D7-A2E8-03B21A1942C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1266C00-950D-49D7-A2E8-03B21A1942C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D6D394-A359-49FA-B126-39DE3C8C9A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D6D394-A359-49FA-B126-39DE3C8C9A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D6D394-A359-49FA-B126-39DE3C8C9A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D6D394-A359-49FA-B126-39DE3C8C9A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C50C857-6DC6-4F1E-BA8F-577C23B53CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C50C857-6DC6-4F1E-BA8F-577C23B53CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C50C857-6DC6-4F1E-BA8F-577C23B53CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C50C857-6DC6-4F1E-BA8F-577C23B53CB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
