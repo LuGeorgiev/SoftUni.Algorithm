@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessorScheduling", "Proc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinghtsTour", "KinghtsTour\KinghtsTour.csproj", "{8CF09A91-BDDA-4AEF-A843-A9D25779DCCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestLecturersSchedule", "BestLecturersSchedule\BestLecturersSchedule.csproj", "{5B730274-4543-4F94-8349-4ABB16602163}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestLecturersSchedule", "BestLecturersSchedule\BestLecturersSchedule.csproj", "{5B730274-4543-4F94-8349-4ABB16602163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterativePermutationsWithRep", "IterativePermutationsWithRep\IterativePermutationsWithRep.csproj", "{978DD4CA-B819-42D6-AA34-6144EF53BBC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5B730274-4543-4F94-8349-4ABB16602163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B730274-4543-4F94-8349-4ABB16602163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B730274-4543-4F94-8349-4ABB16602163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978DD4CA-B819-42D6-AA34-6144EF53BBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978DD4CA-B819-42D6-AA34-6144EF53BBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978DD4CA-B819-42D6-AA34-6144EF53BBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978DD4CA-B819-42D6-AA34-6144EF53BBC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
