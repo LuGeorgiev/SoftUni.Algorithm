@@ -5,11 +5,15 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestZigZagSequence", "LongestZigZagSequence\LongestZigZagSequence.csproj", "{43B070F3-8EF4-4E42-93C1-EB1C6069F358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevidingPresents", "DevidingPresents\DevidingPresents.csproj", "{5F066E14-078A-41F2-9F87-F9E48E76C2D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevidingPresents", "DevidingPresents\DevidingPresents.csproj", "{5F066E14-078A-41F2-9F87-F9E48E76C2D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumEditDistanec", "MinimumEditDistanec\MinimumEditDistanec.csproj", "{00E6A99B-6D16-4F65-AA9B-6BAB77667954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumEditDistanec", "MinimumEditDistanec\MinimumEditDistanec.csproj", "{00E6A99B-6D16-4F65-AA9B-6BAB77667954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinomialCoefficients", "BinomialCoefficients\BinomialCoefficients.csproj", "{7A2CB9F5-35F0-4270-85AC-1D5BA4FB389D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinomialCoefficients", "BinomialCoefficients\BinomialCoefficients.csproj", "{7A2CB9F5-35F0-4270-85AC-1D5BA4FB389D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumWithUnlimitedCoins", "SumWithUnlimitedCoins\SumWithUnlimitedCoins.csproj", "{619D8904-3654-4A32-BB43-0BCA689C595E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumWithLimitedCoins", "SumWithLimitedCoins\SumWithLimitedCoins.csproj", "{AC91C65A-7637-421A-AD38-FE9844A6AB42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{7A2CB9F5-35F0-4270-85AC-1D5BA4FB389D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A2CB9F5-35F0-4270-85AC-1D5BA4FB389D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A2CB9F5-35F0-4270-85AC-1D5BA4FB389D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619D8904-3654-4A32-BB43-0BCA689C595E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619D8904-3654-4A32-BB43-0BCA689C595E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619D8904-3654-4A32-BB43-0BCA689C595E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619D8904-3654-4A32-BB43-0BCA689C595E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC91C65A-7637-421A-AD38-FE9844A6AB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC91C65A-7637-421A-AD38-FE9844A6AB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC91C65A-7637-421A-AD38-FE9844A6AB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC91C65A-7637-421A-AD38-FE9844A6AB42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
