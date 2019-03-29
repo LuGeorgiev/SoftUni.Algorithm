@@ -6,96 +6,175 @@ namespace SandBox
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            int count = int.Parse(Console.ReadLine());
-            List<Cell> board = new List<Cell>();
+        private static HashSet<Cube> isomorphicCubes;
+        private static int[] currentEdges;
+        private static int[] colorsLeftCount;
+        private static int cubesCount;
 
-            for (byte i = 1; i <= count; i++)
+        public static void Main()
+        {
+            int[] sticks = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            int count = NumberOfCubes(sticks);
+            Console.WriteLine(count);
+        }
+
+        static void GenerateCubes(int edgeIndex)
+        {
+            if (edgeIndex == Cube.EDGE_COUNT)
             {
-                for (byte j = 1; j <= count; j++)
+                Cube cube = new Cube(currentEdges);
+                if (isomorphicCubes.Contains(cube))
                 {
-                    board.Add(new Cell { Row = i, Col = j });
+                    return;
+                }
+
+                for (int i = 0; i < 4; i++)
+                {
+                    cube.RotateXY();
+                    for (int j = 0; j < 4; j++)
+                    {
+                        cube.RotateXZ();
+                        for (int k = 0; k < 4; k++)
+                        {
+                            cube.RotateYZ();
+                            isomorphicCubes.Add(new Cube(cube));
+                        }
+                    }
+                }
+
+                cubesCount++;
+                //Console.WriteLine(cube);
+                return;
+            }
+
+            for (int color = 1; color <= Cube.MAX_COLOR; color++)
+            {
+                if (colorsLeftCount[color] > 0)
+                {
+                    colorsLeftCount[color]--;
+                    currentEdges[edgeIndex] = color;
+                    GenerateCubes(edgeIndex + 1);
+                    colorsLeftCount[color]++;
                 }
             }
-            int counter = 1;
-            var currentCell = board[0];
-            currentCell.IsVisited = true;
-            currentCell.TurnVisited = counter++;
-
-            while (board.Any(c => !c.IsVisited))
-            {
-                currentCell = SelectNextCell(currentCell, board);
-                currentCell.IsVisited = true;
-                currentCell.TurnVisited = counter++;
-            }
-
-            PrintBoard(count, board);
         }
 
-        static void PrintBoard(int count, List<Cell> board)
+        static int NumberOfCubes(int[] sticks)
         {
-            for (int i = 0; i < count; i++)
+            colorsLeftCount = new int[Cube.MAX_COLOR + 1];
+            for (int i = 0; i < Cube.EDGE_COUNT; i++)
             {
-                for (int j = 0; j < count; j++)
+                colorsLeftCount[sticks[i]]++;
+            }
+
+            currentEdges = new int[Cube.EDGE_COUNT];
+            isomorphicCubes = new HashSet<Cube>();
+            cubesCount = 0;
+            GenerateCubes(0);
+
+            return cubesCount;
+        }
+
+        private class Cube
+        {
+            public const int EDGE_COUNT = 12;
+            public const int MAX_COLOR = 6;
+            public int[] edges;
+
+            public Cube()
+            {
+                this.edges = new int[EDGE_COUNT];
+            }
+
+            public Cube(int[] newEdges)
+                : this()
+            {
+                Array.Copy(newEdges, this.edges, EDGE_COUNT);
+            }
+
+            public Cube(Cube cube)
+                : this()
+            {
+                Array.Copy(cube.edges, this.edges, EDGE_COUNT);
+            }
+
+            public override string ToString()
+            {
+                string s = "{";
+                foreach (int edge in this.edges)
                 {
-                    Console.Write(board[i * count + j].TurnVisited.ToString().PadLeft(3) + " ");
+                    s += edge;
                 }
-                Console.WriteLine();
+                s += "}";
+
+                return s;
             }
-        }
 
-        private static Cell SelectNextCell(Cell current, List<Cell> board)
-        {
-            var topLeft = board.FirstOrDefault(c => c.Row == current.Row - 2 && c.Col == current.Col - 1);
-            var leftTop = board.FirstOrDefault(c => c.Row == current.Row - 1 && c.Col == current.Col - 2);
-            var rightTop = board.FirstOrDefault(c => c.Row == current.Row - 1 && c.Col == current.Col + 2);
-            var topRight = board.FirstOrDefault(c => c.Row == current.Row - 2 && c.Col == current.Col + 1);
-
-            var bottomLeft = board.FirstOrDefault(c => c.Row == current.Row + 2 && c.Col == current.Col - 1);
-            var leftBottom = board.FirstOrDefault(c => c.Row == current.Row + 1 && c.Col == current.Col - 2);
-            var rightBottom = board.FirstOrDefault(c => c.Row == current.Row + 1 && c.Col == current.Col + 2);
-            var bottomRight = board.FirstOrDefault(c => c.Row == current.Row + 2 && c.Col == current.Col + 1);
-
-            return new List<Cell>
+            public void RotateXY()
             {
-                 rightBottom,rightTop,leftBottom, leftTop, bottomRight, topRight, topLeft, bottomLeft
+                int[] newEdges =
+                {
+                    this.edges[1], this.edges[2], this.edges[3], this.edges[0],
+                    this.edges[5], this.edges[6], this.edges[7], this.edges[4],
+                    this.edges[9], this.edges[10], this.edges[11], this.edges[8]
+                };
+
+                this.edges = newEdges;
             }
-            .Where(c => c != null && !c.IsVisited)
-            .ToList()
-            .OrderBy(c => CalculatePosibleMoves(c, board))
-            .First();
 
-        }
-
-        private static int CalculatePosibleMoves(Cell current, List<Cell> board)
-        {
-            var topLeft = board.FirstOrDefault(c => c.Row == current.Row - 2 && c.Col == current.Col - 1);
-            var leftTop = board.FirstOrDefault(c => c.Row == current.Row - 1 && c.Col == current.Col - 2);
-            var rightTop = board.FirstOrDefault(c => c.Row == current.Row - 1 && c.Col == current.Col + 2);
-            var topRight = board.FirstOrDefault(c => c.Row == current.Row - 2 && c.Col == current.Col + 1);
-
-            var bottomLeft = board.FirstOrDefault(c => c.Row == current.Row + 2 && c.Col == current.Col - 1);
-            var leftBottom = board.FirstOrDefault(c => c.Row == current.Row + 1 && c.Col == current.Col - 2);
-            var rightBottom = board.FirstOrDefault(c => c.Row == current.Row + 1 && c.Col == current.Col + 2);
-            var bottomRight = board.FirstOrDefault(c => c.Row == current.Row + 2 && c.Col == current.Col + 1);
-
-            return new List<Cell>
+            public void RotateXZ()
             {
-                topLeft, topRight, leftTop, rightTop, bottomLeft, bottomRight, leftBottom, rightBottom
+                int[] newEdges =
+                {
+                    this.edges[4], this.edges[9], this.edges[5], this.edges[1],
+                    this.edges[8], this.edges[10], this.edges[2], this.edges[0],
+                    this.edges[7], this.edges[11], this.edges[6], this.edges[3]
+                };
+
+                this.edges = newEdges;
             }
-            .Where(c => c != null && !c.IsVisited)
-            .Count();
-        }
-        private class Cell
-        {
-            public byte Row { get; set; }
 
-            public byte Col { get; set; }
+            public void RotateYZ()
+            {
+                int[] newEdges =
+                {
+                    this.edges[2], this.edges[5], this.edges[10], this.edges[6],
+                    this.edges[1], this.edges[9], this.edges[11], this.edges[3],
+                    this.edges[0], this.edges[4], this.edges[8], this.edges[7]
+                };
 
-            public bool IsVisited { get; set; }
+                this.edges = newEdges;
+            }
 
-            public int TurnVisited { get; set; }
+            public override bool Equals(object obj)
+            {
+                Cube cube = obj as Cube;
+                if (cube != null)
+                {
+                    for (int i = 0; i < EDGE_COUNT; i++)
+                    {
+                        if (this.edges[i] != cube.edges[i])
+                        {
+                            return false;
+                        }
+                    }
+
+                    return true;
+                }
+
+                return false;
+            }
+
+            public override int GetHashCode()
+            {
+                int hashCode = 0;
+                foreach (int edge in this.edges)
+                {
+                    hashCode = hashCode * 7 + edge;
+                }
+
+                return hashCode;
+            }
         }
     }
 }

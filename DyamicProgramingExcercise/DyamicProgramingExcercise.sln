@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumWithUnlimitedCoins", "Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumWithLimitedCoins", "SumWithLimitedCoins\SumWithLimitedCoins.csproj", "{AC91C65A-7637-421A-AD38-FE9844A6AB42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectingCables", "ConnectingCables\ConnectingCables.csproj", "{B19907E6-C7A0-4F94-912E-9E48FC5A7566}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{AC91C65A-7637-421A-AD38-FE9844A6AB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC91C65A-7637-421A-AD38-FE9844A6AB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC91C65A-7637-421A-AD38-FE9844A6AB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19907E6-C7A0-4F94-912E-9E48FC5A7566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19907E6-C7A0-4F94-912E-9E48FC5A7566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19907E6-C7A0-4F94-912E-9E48FC5A7566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19907E6-C7A0-4F94-912E-9E48FC5A7566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

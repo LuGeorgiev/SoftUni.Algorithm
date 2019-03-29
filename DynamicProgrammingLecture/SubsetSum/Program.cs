@@ -24,6 +24,7 @@ namespace SubsetSum
                     }
                 }
             }
+
             return result;
         }
 
