@@ -20,6 +20,7 @@
         public int CompareTo(Edge other)
         {
             int weightCompared = this.Weight.CompareTo(other.Weight);
+
             return weightCompared;
         }
 
