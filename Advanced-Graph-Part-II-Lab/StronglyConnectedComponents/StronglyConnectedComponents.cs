@@ -67,8 +67,7 @@ public class StronglyConnectedComponents
             {
                 ReversedDfs(child);
             }
-        }
-        
+        }        
     }
 
     private static void Dfs(int node)

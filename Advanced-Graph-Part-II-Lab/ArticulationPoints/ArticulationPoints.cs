@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class ArticulationPoints
 {
-    //Articulation point is such point that will separete the components if the node is deleted
+    //Articulation point is such point that will separete the components if the given node is deleted
     //Hopcroft, Tarjan Algotithm
 
     private static List<int>[] graph;
@@ -44,7 +44,7 @@ public class ArticulationPoints
 
         foreach (var child in graph[node])
         {
-            if (!visited[node])
+            if (!visited[child])
             {
                 parent[child] = node;
                 FindArticulationPoints(child, depth + 1);

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 //Kosaraju-Sahriri Algorithm
+//To be strongly connected each two nodes from oriented graph have to have connections between them
 
 public class StronglyConnectedComponentsMain
 {
