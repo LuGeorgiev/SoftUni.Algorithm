@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumTasksAssignment", "MaximumTasksAssignment\MaximumTasksAssignment.csproj", "{7F949D06-97DA-46A6-922B-9F5DB9BFE116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakCycles", "BreakCycles\BreakCycles.csproj", "{0BBCD4F6-0EF4-409A-9BBB-7548D0348AFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreakCycles", "BreakCycles\BreakCycles.csproj", "{0BBCD4F6-0EF4-409A-9BBB-7548D0348AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableNetwork", "CableNetwork\CableNetwork.csproj", "{AFA5374B-C7B7-4C2A-9539-2A7DE2321780}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0BBCD4F6-0EF4-409A-9BBB-7548D0348AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BBCD4F6-0EF4-409A-9BBB-7548D0348AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BBCD4F6-0EF4-409A-9BBB-7548D0348AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA5374B-C7B7-4C2A-9539-2A7DE2321780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA5374B-C7B7-4C2A-9539-2A7DE2321780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA5374B-C7B7-4C2A-9539-2A7DE2321780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA5374B-C7B7-4C2A-9539-2A7DE2321780}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
