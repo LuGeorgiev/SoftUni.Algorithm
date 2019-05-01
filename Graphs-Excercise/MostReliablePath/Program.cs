@@ -101,6 +101,7 @@ namespace MostReliablePath
                     }
                 }
             }
+
             var result = new List<int>();
             var current = end;
             while (current!=-1)
@@ -110,6 +111,8 @@ namespace MostReliablePath
                 current = previous[current];
             }
             result.Reverse();
+
+
             Console.WriteLine($"Most realiable path: {percentages[end]:F2}%");
             Console.WriteLine(string.Join(" -> ", result));
         }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableNetwork", "CableNetwor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MostReliablePath", "MostReliablePath\MostReliablePath.csproj", "{6571863E-6F73-42AB-939D-3E8FAE51554E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceBetweenVetrices", "DistanceBetweenVetrices\DistanceBetweenVetrices.csproj", "{0BF934EE-AD31-4BBE-BC02-6ECCBF0AE7CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6571863E-6F73-42AB-939D-3E8FAE51554E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6571863E-6F73-42AB-939D-3E8FAE51554E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6571863E-6F73-42AB-939D-3E8FAE51554E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF934EE-AD31-4BBE-BC02-6ECCBF0AE7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF934EE-AD31-4BBE-BC02-6ECCBF0AE7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF934EE-AD31-4BBE-BC02-6ECCBF0AE7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF934EE-AD31-4BBE-BC02-6ECCBF0AE7CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
