@@ -9,7 +9,7 @@ namespace CyclesInGraph
     class Program
     {
         static Dictionary<char, List<char>> graph = new Dictionary<char, List<char>>();
-        static HashSet<char> visitedNodes ;
+
 
         static void Main(string[] args)
         {
@@ -20,7 +20,8 @@ namespace CyclesInGraph
                 {
                     break;
                 }
-                var edgeData = edge.Split('-').ToArray();
+                var edgeData = edge.Split('-')
+                    .ToArray();
                 var start = edgeData[0][0];
                 var end = edgeData[1][0];
 
@@ -39,16 +40,15 @@ namespace CyclesInGraph
             bool isAcyclical = true;
             foreach (var node in graph.Keys)
             {
-                visitedNodes = new HashSet<char>();
-                if (!visitedNodes.Contains(node))
+                var visitedNodes = new HashSet<char>();
+
+                visitedNodes.Add(node);
+                if (!IsAcyclicalBFS(node, visitedNodes))
                 {
-                    visitedNodes.Add(node);
-                    if (!IsAcyclicalBFS(node, visitedNodes))
-                    {
-                        isAcyclical = false;
-                        break;
-                    }
+                    isAcyclical = false;
+                    break;
                 }
+
             }
 
             if (isAcyclical)
@@ -58,6 +58,7 @@ namespace CyclesInGraph
             else
             {
                 Console.WriteLine("Acyclic: No");
+
             }
         }
 
@@ -65,23 +66,26 @@ namespace CyclesInGraph
         {
             var queue = new Queue<char>();
             queue.Enqueue(node);
-            while (queue.Count>0)
+
+            while (queue.Count > 0)
             {
                 var currentNode = queue.Dequeue();
-                foreach (var child in graph[currentNode])
-                {
-                    if (child==node)
-                    {
-                        return false;
-                    }
 
-                    if (!visited.Contains(child))
-                    {
+                if (graph.ContainsKey(currentNode))
+                {
+                    foreach (var child in graph[currentNode])
+                    {                   
+                        if (visited.Contains(child))
+                        {
+                            return false;
+                        }
                         visited.Add(child);
                         queue.Enqueue(child);
+                        graph[child].Remove(currentNode);
                     }
                 }
             }
+
             return true;
         }
     }
