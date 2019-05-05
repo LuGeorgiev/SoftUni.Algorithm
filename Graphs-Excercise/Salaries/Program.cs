@@ -7,13 +7,13 @@ namespace Salaries
     class Program
     {
         private static Dictionary<int, List<int>> graph;
-        private static int[] salaries;
+        private static long[] salaries;
         //private static bool[] visited;
 
         static void Main(string[] args)
         {
             var numberOfNodes = int.Parse(Console.ReadLine());
-            salaries = new int[numberOfNodes];
+            salaries = new long[numberOfNodes];
             //visited = new bool[numberOfNodes];
             graph = new Dictionary<int, List<int>>();
 
