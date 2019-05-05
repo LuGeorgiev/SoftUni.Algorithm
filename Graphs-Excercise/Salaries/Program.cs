@@ -8,13 +8,11 @@ namespace Salaries
     {
         private static Dictionary<int, List<int>> graph;
         private static long[] salaries;
-        //private static bool[] visited;
 
         static void Main(string[] args)
         {
             var numberOfNodes = int.Parse(Console.ReadLine());
             salaries = new long[numberOfNodes];
-            //visited = new bool[numberOfNodes];
             graph = new Dictionary<int, List<int>>();
 
             for (int i = 0; i < numberOfNodes; i++)
@@ -33,26 +31,10 @@ namespace Salaries
                     }
                 }
             }
-
-            var employees = graph.Values
-                .SelectMany(x=>x)
-                .Union(graph.Keys)
-                .Distinct()
-                .ToArray();
-
-            foreach (var employee in employees)
+            foreach (var employee in graph.Keys)
             {
                 DFS(employee);
             }
-
-            //var bosses = graph.Keys
-            //    .Where(x => !employees.Contains(x))
-            //    .ToArray();
-            //foreach (var boss in bosses)
-            //{
-            //    visited[boss] = true;
-            //    DFS(boss);
-            //}
 
             Console.WriteLine(salaries.Sum(x=>x));
         }
@@ -74,23 +56,6 @@ namespace Salaries
                     salaries[node] = 1;
                 }
             }
-
-            
-            //if (graph[node].Count==0)
-            //{
-            //    salaries[node] = 1;
-            //    return;
-            //}
-
-            //foreach (var employee in graph[node])
-            //{
-            //    if (!visited[employee])
-            //    {
-            //        visited[employee] = true;
-            //        DFS(employee);
-            //    }
-            //    salaries[node] += salaries[employee];
-            //}
         }
     }
 }
