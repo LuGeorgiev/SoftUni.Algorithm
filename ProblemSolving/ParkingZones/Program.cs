@@ -46,7 +46,7 @@ namespace ParkingZones
 
             ParkingZone parkedZone = parkingZones.FirstOrDefault(x => x.IsInZone(parkX, parkY));
 
-            var distance = Math.Abs(parkX - shopX) + Math.Abs(parkY - shopY);
+            var distance = Math.Abs(parkX - shopX) + Math.Abs(parkY - shopY)-1;
             var minutesToPay = (int)Math.Ceiling(distance * 2 * secondsPerSquare / 60m);
             var priceTotal = minutesToPay * parkedZone.Price;
 
