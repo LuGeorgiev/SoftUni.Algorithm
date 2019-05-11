@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingZones", "ParkingZone
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingZones100Points", "ParkingZones100Points\ParkingZones100Points.csproj", "{57322BDE-9FAD-4196-822C-933EDDBF3B8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parenthesis", "Parenthesis\Parenthesis.csproj", "{6D27AD2D-D15E-4329-8B49-110C214ECBCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParenthesisVariationSolution", "ParenthesisVariationSolution\ParenthesisVariationSolution.csproj", "{D6F7EB71-5EBF-4C43-926B-26AD4E86D512}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{57322BDE-9FAD-4196-822C-933EDDBF3B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57322BDE-9FAD-4196-822C-933EDDBF3B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57322BDE-9FAD-4196-822C-933EDDBF3B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D27AD2D-D15E-4329-8B49-110C214ECBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D27AD2D-D15E-4329-8B49-110C214ECBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D27AD2D-D15E-4329-8B49-110C214ECBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D27AD2D-D15E-4329-8B49-110C214ECBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F7EB71-5EBF-4C43-926B-26AD4E86D512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F7EB71-5EBF-4C43-926B-26AD4E86D512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F7EB71-5EBF-4C43-926B-26AD4E86D512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F7EB71-5EBF-4C43-926B-26AD4E86D512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
