@@ -62,6 +62,7 @@ namespace ElectionsFasterSolution
 
             return numbers;
         }
+
     }
 
 }
