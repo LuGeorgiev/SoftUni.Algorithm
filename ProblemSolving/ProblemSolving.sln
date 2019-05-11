@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectionsFasterSolution", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumTo13", "SumTo13\SumTo13.csproj", "{06294636-62D3-4042-A672-D7A73CE3DA5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lumber", "Lumber\Lumber.csproj", "{3EC802B0-9253-40DA-B992-9F145F74DBBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LumberFastAndWorking", "LumberFastAndWorking\LumberFastAndWorking.csproj", "{A64517CB-D869-40A6-8C90-7307AC02951C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{06294636-62D3-4042-A672-D7A73CE3DA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06294636-62D3-4042-A672-D7A73CE3DA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06294636-62D3-4042-A672-D7A73CE3DA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC802B0-9253-40DA-B992-9F145F74DBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC802B0-9253-40DA-B992-9F145F74DBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC802B0-9253-40DA-B992-9F145F74DBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC802B0-9253-40DA-B992-9F145F74DBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64517CB-D869-40A6-8C90-7307AC02951C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64517CB-D869-40A6-8C90-7307AC02951C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64517CB-D869-40A6-8C90-7307AC02951C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64517CB-D869-40A6-8C90-7307AC02951C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
