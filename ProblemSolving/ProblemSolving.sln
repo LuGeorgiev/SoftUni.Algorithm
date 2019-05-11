@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elections", "Elections\Elec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectionsFasterSolution", "ElectionsFasterSolution\ElectionsFasterSolution.csproj", "{87274C30-2092-40E7-922E-B6568B3BD045}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumTo13", "SumTo13\SumTo13.csproj", "{06294636-62D3-4042-A672-D7A73CE3DA5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{87274C30-2092-40E7-922E-B6568B3BD045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87274C30-2092-40E7-922E-B6568B3BD045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87274C30-2092-40E7-922E-B6568B3BD045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06294636-62D3-4042-A672-D7A73CE3DA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06294636-62D3-4042-A672-D7A73CE3DA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06294636-62D3-4042-A672-D7A73CE3DA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06294636-62D3-4042-A672-D7A73CE3DA5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
