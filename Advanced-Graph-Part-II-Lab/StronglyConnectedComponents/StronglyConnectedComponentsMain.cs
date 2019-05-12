@@ -29,6 +29,7 @@ public class StronglyConnectedComponentsMain
         var result = StronglyConnectedComponents.FindStronglyConnectedComponents(graph);
 
         Console.WriteLine("Strongly Connected Components:");
+
         foreach (var component in result)
         {
             Console.WriteLine("{{{0}}}", string.Join(", ", component));

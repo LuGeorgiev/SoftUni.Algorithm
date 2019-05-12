@@ -10,7 +10,7 @@ namespace PermutationsWithoutReps
 
         static void Main(string[] args)
         {
-            elements = new[] { 0, 1, 2 };
+            elements = new[] { 1,2,3,4,};
             used = new bool[elements.Length];
             perm = new int[elements.Length];
 
