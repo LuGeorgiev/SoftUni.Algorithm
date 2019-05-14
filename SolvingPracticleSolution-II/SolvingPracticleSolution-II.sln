@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guitar", "Guitar\Guitar.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPath", "ShortestPath\ShortestPath.csproj", "{60152EB3-E008-4739-AB34-7EA1C8923ED9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPathLectureerWay", "ShortestPathLectureerWay\ShortestPathLectureerWay.csproj", "{C4F85459-1374-4CFB-8699-F2C29889DC56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{60152EB3-E008-4739-AB34-7EA1C8923ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60152EB3-E008-4739-AB34-7EA1C8923ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60152EB3-E008-4739-AB34-7EA1C8923ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F85459-1374-4CFB-8699-F2C29889DC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F85459-1374-4CFB-8699-F2C29889DC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F85459-1374-4CFB-8699-F2C29889DC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F85459-1374-4CFB-8699-F2C29889DC56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
