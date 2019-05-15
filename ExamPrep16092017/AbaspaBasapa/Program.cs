@@ -27,7 +27,7 @@ namespace AbaspaBasapa
 
                     if (currentSymbol==symbolToCompare)
                     {
-                        matrix[row, col] = matrix[row - 1, col - 1]++;
+                        matrix[row, col] = matrix[row - 1, col - 1]+1;
                     }
 
                     if (matrix[row,col]>highestValue || (matrix[row,col]==highestValue && col < highesCol))
@@ -39,6 +39,7 @@ namespace AbaspaBasapa
                 }
             }
 
+
             var result = new List<char>();
             while (true)
             {
@@ -46,7 +47,7 @@ namespace AbaspaBasapa
                 {
                     break;
                 }
-                result.Add(secondWord[highestRow]);
+                result.Add(secondWord[highestRow-1]);
                 highestRow--;
                 highesCol--;
             }
