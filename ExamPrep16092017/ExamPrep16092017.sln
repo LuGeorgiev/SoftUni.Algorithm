@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbaspaBasapa", "AbaspaBasap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balls", "Balls\Balls.csproj", "{58CF355D-CFE0-43A3-B0B6-30B1CB17D334}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{3FF0FA00-956A-4298-BAA1-74F7E0E7CAFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{58CF355D-CFE0-43A3-B0B6-30B1CB17D334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58CF355D-CFE0-43A3-B0B6-30B1CB17D334}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58CF355D-CFE0-43A3-B0B6-30B1CB17D334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF0FA00-956A-4298-BAA1-74F7E0E7CAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF0FA00-956A-4298-BAA1-74F7E0E7CAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF0FA00-956A-4298-BAA1-74F7E0E7CAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF0FA00-956A-4298-BAA1-74F7E0E7CAFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
