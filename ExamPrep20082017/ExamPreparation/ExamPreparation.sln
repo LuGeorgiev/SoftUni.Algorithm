@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootingRangeFastSolution",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellingPoliceman", "TravellingPoliceman\TravellingPoliceman.csproj", "{7926C855-2AED-43E0-B233-66CC21271101}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellingPolicemenNapsack", "TravellingPolicemenNapsack\TravellingPolicemenNapsack.csproj", "{D8A63397-4825-493F-8AE0-068E3C84E4F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7926C855-2AED-43E0-B233-66CC21271101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7926C855-2AED-43E0-B233-66CC21271101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7926C855-2AED-43E0-B233-66CC21271101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A63397-4825-493F-8AE0-068E3C84E4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A63397-4825-493F-8AE0-068E3C84E4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A63397-4825-493F-8AE0-068E3C84E4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A63397-4825-493F-8AE0-068E3C84E4F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,15 +17,10 @@ namespace TravellingPoliceman
         }
 
         public string Name { get; private set; }
-
         public int Damage { get; private set; }
-
         public int Length { get; set; }
-
         public int Id { get; set; }
-
         public int Pokemons { get; set; }
-
         public int Rank 
             => this.Pokemons * 10 - this.Damage;
 
@@ -39,6 +34,8 @@ namespace TravellingPoliceman
             return compare;
         }
     }
+
+
     class Program
     {
         private static SortedSet<Street> allStreets = new SortedSet<Street>();
