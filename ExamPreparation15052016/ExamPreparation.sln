@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SticksFastWay", "SticksFast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roberry", "Roberry\Roberry.csproj", "{8DD50E48-F0D9-4D2B-A31D-E3C1FBDB0999}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableMerchant", "CableMerchant\CableMerchant.csproj", "{989FFE07-F153-4FA6-A306-E0B7E4EDBF41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8DD50E48-F0D9-4D2B-A31D-E3C1FBDB0999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DD50E48-F0D9-4D2B-A31D-E3C1FBDB0999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DD50E48-F0D9-4D2B-A31D-E3C1FBDB0999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989FFE07-F153-4FA6-A306-E0B7E4EDBF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989FFE07-F153-4FA6-A306-E0B7E4EDBF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989FFE07-F153-4FA6-A306-E0B7E4EDBF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989FFE07-F153-4FA6-A306-E0B7E4EDBF41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
