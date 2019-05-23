@@ -15,9 +15,12 @@ namespace TourDeSofia
         static void Main(string[] args)
         {
             FillGraph();
+
             var queue = new Queue<int>();
             queue.Enqueue(start);
+
             BFS(queue);
+
             if (pathFound)
             {
                 int pathLength = CalculatePath(start);
