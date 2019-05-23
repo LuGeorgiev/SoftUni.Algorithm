@@ -85,7 +85,7 @@ namespace TravellingPolicemenNapsack
                 int row = itemIndex + 1;
                 Street item = items[itemIndex];
 
-                for (int col = 1; col < fuel; col++)
+                for (int col = 1; col <= fuel; col++)
                 {
                     int excludeValue = values[row - 1, col];
                     int includedValue = 0;
