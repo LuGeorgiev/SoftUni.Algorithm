@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequencesOfLimitedSum", "Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridges", "Bridges\Bridges.csproj", "{95CF1B82-5FB6-4636-A3CD-72DF4DA449BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgesWorkingSolution", "BridgesWorkingSolution\BridgesWorkingSolution.csproj", "{30FACBF2-CEF7-4E98-9871-B0EA300BF303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{95CF1B82-5FB6-4636-A3CD-72DF4DA449BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95CF1B82-5FB6-4636-A3CD-72DF4DA449BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95CF1B82-5FB6-4636-A3CD-72DF4DA449BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FACBF2-CEF7-4E98-9871-B0EA300BF303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FACBF2-CEF7-4E98-9871-B0EA300BF303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FACBF2-CEF7-4E98-9871-B0EA300BF303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FACBF2-CEF7-4E98-9871-B0EA300BF303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
