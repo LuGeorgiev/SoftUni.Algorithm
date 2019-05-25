@@ -8,6 +8,7 @@ namespace BridgesWorkingSolution
     {
         static void Main(string[] args)
         {
+            
             string[] bridges = Console.ReadLine()
                 .Split();
 
