@@ -89,6 +89,7 @@ namespace MessageSharing
                     .ToArray();
                 var from = token[0];
                 var to = token[1];
+
                 connectionsGraph[from].Add(to);
                 connectionsGraph[to].Add(from);
             }

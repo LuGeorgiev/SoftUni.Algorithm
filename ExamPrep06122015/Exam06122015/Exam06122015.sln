@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgesWorkingSolution", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageSharing", "MessageSharing\MessageSharing.csproj", "{44863737-2B1D-424A-B962-0CC441F65642}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedRectangles", "NestedRectangles\NestedRectangles.csproj", "{F8FBE2A5-2543-4B00-A446-D7C6BEFE548F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{44863737-2B1D-424A-B962-0CC441F65642}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44863737-2B1D-424A-B962-0CC441F65642}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44863737-2B1D-424A-B962-0CC441F65642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FBE2A5-2543-4B00-A446-D7C6BEFE548F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FBE2A5-2543-4B00-A446-D7C6BEFE548F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FBE2A5-2543-4B00-A446-D7C6BEFE548F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FBE2A5-2543-4B00-A446-D7C6BEFE548F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
