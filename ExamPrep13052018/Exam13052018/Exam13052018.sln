@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZergZerg", "ZergZerg\ZergZe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZergAuthorSolution", "ZergAuthorSolution\ZergAuthorSolution.csproj", "{0DA8E03F-2561-4AF1-91E6-CE7F1CD7BAD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protos", "Protos\Protos.csproj", "{EE38532D-0724-46C4-8C4A-1B21961A9615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0DA8E03F-2561-4AF1-91E6-CE7F1CD7BAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DA8E03F-2561-4AF1-91E6-CE7F1CD7BAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DA8E03F-2561-4AF1-91E6-CE7F1CD7BAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE38532D-0724-46C4-8C4A-1B21961A9615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE38532D-0724-46C4-8C4A-1B21961A9615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE38532D-0724-46C4-8C4A-1B21961A9615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE38532D-0724-46C4-8C4A-1B21961A9615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
