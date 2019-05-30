@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protos", "Protos\Protos.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtosAuthorSolution", "ProtosAuthorSolution\ProtosAuthorSolution.csproj", "{4E69462B-A34C-4A11-94A7-E572D6E18929}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerranPermutationsWithoutRep", "TerranPermutationsWithoutRep\TerranPermutationsWithoutRep.csproj", "{7F4B030A-94C0-4D28-9C69-9BA5D810F98A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4E69462B-A34C-4A11-94A7-E572D6E18929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E69462B-A34C-4A11-94A7-E572D6E18929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E69462B-A34C-4A11-94A7-E572D6E18929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4B030A-94C0-4D28-9C69-9BA5D810F98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4B030A-94C0-4D28-9C69-9BA5D810F98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4B030A-94C0-4D28-9C69-9BA5D810F98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4B030A-94C0-4D28-9C69-9BA5D810F98A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
