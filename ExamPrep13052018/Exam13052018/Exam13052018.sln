@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtosAuthorSolution", "Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerranPermutationsWithoutRep", "TerranPermutationsWithoutRep\TerranPermutationsWithoutRep.csproj", "{7F4B030A-94C0-4D28-9C69-9BA5D810F98A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerranMathFormula", "TerranMathFormula\TerranMathFormula.csproj", "{C1FDCCA6-65FC-4CB5-8C0B-CCAF3DDF73D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7F4B030A-94C0-4D28-9C69-9BA5D810F98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F4B030A-94C0-4D28-9C69-9BA5D810F98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F4B030A-94C0-4D28-9C69-9BA5D810F98A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FDCCA6-65FC-4CB5-8C0B-CCAF3DDF73D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FDCCA6-65FC-4CB5-8C0B-CCAF3DDF73D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FDCCA6-65FC-4CB5-8C0B-CCAF3DDF73D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FDCCA6-65FC-4CB5-8C0B-CCAF3DDF73D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
